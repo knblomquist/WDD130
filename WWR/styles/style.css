@@ -6,6 +6,7 @@ nav a {
     text-align: center;
     color: rgb(209, 211, 238);
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1{
     text-align: center;
@@ -24,13 +25,20 @@ main section{
 }
 
 body{
-background-color: antiquewhite;
+    background-color: antiquewhite;
+    margin: 0;
+    padding: 0;
+}
+h2{
+    margin: 0;
 }
 header{
     background-color: rgba(20,30,13, .7);
 }
 .home-title{
     color: rgb(0, 0, 0);
+    font-size: 2em;
+    margin-top: 10px;
 }
 h4{
     color: rgb(0, 0, 0);
@@ -43,11 +51,19 @@ nav a:hover{
     background-color: #396E94;
     color: #EEE12B;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 } 
 .join{
     background-color: #396E94;
     color: #EEE12B;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover{
     background-color: #A42212;
@@ -62,15 +78,20 @@ nav a:hover{
 }
 .msg{
     background-color: #396E94;
+    font-size: .8em;
+    padding: 35px;
 }
 footer{
     background-color: #396E94;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .msg h2{
     color: #EEE12B;
 }
 .msg p{
     color: #EEE12B;
+    padding-bottom: 15px;
 }
 footer h3{
     color: rgb(0, 0, 0);
@@ -82,11 +103,31 @@ footer a{
 footer a:hover{
     color: #afa51e;
 }
+footer .social img{
+    padding-top: 15px;
+}
 
 .icon{
     width: 80px;
+    padding-top: 10px;
 }
 
 #hero_image{
     width:100%
+}
+
+p{
+    font-size: .8em;
+}
+#logo_link{
+    padding-top: 5px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid black;
+}
+main section img {
+    box-sizing: border-box;
 }
